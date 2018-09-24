@@ -1,0 +1,31 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< java.io.jaegertracing.examples:maven-example >------------
+[INFO] Building Test project 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ maven-example ---
+[INFO] java.io.jaegertracing.examples:maven-example:jar:0.0.1-SNAPSHOT
+[INFO] \- io.jaegertracing:jaeger-client:jar:0.31.0:compile
+[INFO]    +- io.jaegertracing:jaeger-thrift:jar:0.31.0:compile
+[INFO]    |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    |  +- org.apache.thrift:libthrift:jar:0.11.0:compile
+[INFO]    |  |  +- org.apache.httpcomponents:httpclient:jar:4.4.1:compile
+[INFO]    |  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO]    |  |  |  \- commons-codec:commons-codec:jar:1.9:compile
+[INFO]    |  |  \- org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+[INFO]    |  \- com.squareup.okhttp3:okhttp:jar:3.9.0:compile
+[INFO]    |     \- com.squareup.okio:okio:jar:1.13.0:compile
+[INFO]    +- io.jaegertracing:jaeger-core:jar:0.31.0:compile
+[INFO]    |  +- io.opentracing:opentracing-api:jar:0.31.0:compile
+[INFO]    |  +- io.opentracing:opentracing-util:jar:0.31.0:compile
+[INFO]    |  |  \- io.opentracing:opentracing-noop:jar:0.31.0:compile
+[INFO]    |  \- com.google.code.gson:gson:jar:2.8.2:compile
+[INFO]    \- io.jaegertracing:jaeger-tracerresolver:jar:0.31.0:compile
+[INFO]       \- io.opentracing.contrib:opentracing-tracerresolver:jar:0.1.4:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.768 s
+[INFO] Finished at: 2018-09-22T16:40:13-07:00
+[INFO] ------------------------------------------------------------------------
