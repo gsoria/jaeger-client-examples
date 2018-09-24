@@ -1,5 +1,5 @@
 # jaeger-client-examples
-This repo containt two projects to test jaeger-client-java. Both projects were created to test the integration with jaeger and identify the dependencies of jaeger-client-java.
+This repo contains two projects to test jaeger-client-java. Both projects were created to test the integration with jaeger and identify the dependencies of jaeger-client-java.
 
 ## Dependencies
 It is necessary to have the all-in-one jaeger docker image running:
@@ -16,7 +16,7 @@ but using the jaeger-client-java instead of uber dependencies. Send a example "h
 
 ## jaeger-android
 A basic android project, which test the jaeger client via UDP and Http. Allows to specify the IP of the collector, and depending on the selection, send a trace using HttpSender or UdpSender.
-Also, sets the brand and model tags with the information of collected from the phone.
+Also, sets the brand and model tags with the information collected from the phone.
 
 <img width="400" alt="android" src="https://user-images.githubusercontent.com/5870211/45936328-0f5d2000-bf6a-11e8-96ac-15afc06e9ab1.png">
 
